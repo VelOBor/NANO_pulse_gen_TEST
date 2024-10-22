@@ -59,7 +59,7 @@ void loop() {
       digitalWrite(hall_1_pin, hall_sensor0);
       
     }
-  
+  else {pot_val = 0;}
   }  
 
   Serial.print("Frequency: ");
