@@ -73,6 +73,11 @@ else if (but_state == 0) {pot_val = 0; freq = 0;}
   Serial.print(pot_val);
   Serial.print(" But_state: ");
   Serial.print(but_state);
+  Serial.print(" h0: ");
+  Serial.print(hall_sensor0);
+  Serial.print(" h1: ");
+  Serial.print(hall_sensor1);
+  
   Serial.println(" ");
   
 }
